@@ -22,9 +22,7 @@ int main() {
   //   std::cout << multiplication << std::endl;
   //   std::cout << remainder << std::endl;
 
-  std::cout << x << std::endl;
-  std::cout << p << std::endl;
-  std::cout << x << std::endl;
+  std::cout << x << std::endl << p << std::endl << x << std::endl;
 
   return 0;
 }
