@@ -4,8 +4,8 @@ int main() {
   using namespace std;
 
   double sales = 95000;
-  double stateTax = 0.04;
-  double countyTax = 0.02;
+  const double stateTax = 0.04;
+  const double countyTax = 0.02;
   double totalTax = 0;
   double netSales = 0;
   double stateTaxPayable = 0;
