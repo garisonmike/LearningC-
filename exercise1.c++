@@ -1,3 +1,4 @@
+// calculating tax
 #include <iostream>
 
 int main() {
