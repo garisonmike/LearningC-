@@ -7,7 +7,7 @@ int main() {
   char letter = 'a';
   bool state = true;
 
-  std::cout << price << std::endl;
+  std::cout << "The price of food has gone up to " << price << std::endl;
 
   return 0;
 }

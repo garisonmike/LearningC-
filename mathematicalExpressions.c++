@@ -12,17 +12,20 @@ int main() {
   int remainder =
       x % z; // didn't use y because it raised an error because y is a dobule.
 
+  // std::cout << x << " This is x before p = ++x" << std::endl;
+
   //   int k = x++; // will store value of x in k and then increment x
   int p = ++x; // will first increment x and then store it in p so both will
                // have same value
 
   //   std::cout << sum << std::endl;
   //   std::cout << division << std::endl;
-  //   std::cout << division2 << std::endl;
+  std::cout << division2 << std::endl;
   //   std::cout << multiplication << std::endl;
   //   std::cout << remainder << std::endl;
 
-  std::cout << x << std::endl << p << std::endl << x << std::endl;
+  // std::cout << x << " This is x after p = ++x " << std::endl
+  //           << p << " This is p " << std::endl;
 
   return 0;
 }
