@@ -1,1 +1,2 @@
-# LearningC-
+# LearningC++
+## C++ is fun!!
