@@ -77,7 +77,7 @@ private:
   string phoneNumber;
   int batteryLevel;
 
-public:  // <-- EVERYTHING BELOW NEEDS TO BE PUBLIC!
+public: // <-- EVERYTHING BELOW NEEDS TO BE PUBLIC!
   // default constructor - call parent!
   SmartPhone() : Device() {
     phoneNumber = "911";
@@ -87,7 +87,7 @@ public:  // <-- EVERYTHING BELOW NEEDS TO BE PUBLIC!
   // parameterized constructor - include parent params AND child params
   SmartPhone(const string &id, const string &brandType, const string &pass,
              double devicePrice, const string &phone, int battery)
-      : Device(id, brandType, pass, devicePrice) {  // <-- CALL PARENT!
+      : Device(id, brandType, pass, devicePrice) { // <-- CALL PARENT!
     phoneNumber = phone;
     batteryLevel = battery;
   }
@@ -116,9 +116,7 @@ public:  // <-- EVERYTHING BELOW NEEDS TO BE PUBLIC!
     }
   }
 
-  string showBattery() {
-    return to_string(batteryLevel);
-  }
+  string showBattery() { return to_string(batteryLevel); }
 };
 
 class Laptop : public Device {
@@ -126,7 +124,7 @@ private:
   string macAddress;
   int ramSize;
 
-public:  // <-- ADDED PUBLIC!
+public: // <-- ADDED PUBLIC!
   // default constructor - call parent!
   Laptop() : Device() {
     macAddress = "AAbb";
